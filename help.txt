@@ -1,0 +1,22 @@
+cls	    Clears screen                                                                           Syntax: cls
+color       Sets console background, foreground colors                                              Syntax: color [<fgcolor>][<bgcolor>]
+date        Displays date in dd/mm/yyyy format                                                      Syntax: date
+echo        Shows echo status, turns command echoing on/off or displays messages                    Syntax: echo [on|off|<message>]
+exit        Quits shell. /t quits all child processes                                               Syntax: exit [/t]
+fg          Moves a background process to foreground                                                Syntax: fg /pid
+help	    Prints Help information                                                                 Syntax: help [<command>]
+history     Displays 69 recent commands, excluding history. /clear to clear history                 Syntax: history [/clear]
+path        Displays, sets search path. ; clears path, splits directories, %PATH% adds paths        Syntax: path ; | path [<drive>:<path><file>][;][%PATH%]
+pause       Suspends processing of a batch file and displays a message                              Syntax: pause
+prompt      Changes Shell command prompt                                                            Syntax: prompt [<text>]
+rem         Indicates a comment line in a batch file                                                Syntax: rem [<text>]
+run         Runs a program or batch (.bat) file. /wait runs program in foreground mode              Syntax: run <drive>:<path><file> [/wait]
+set         Displays, sets environmental variable var. /p gets user input, empty /text removes var  Syntax: set [<var>] | set [/p] <var>=[<text>]
+start       Starts a process in a new console. /wait starts in foreground mode                      Syntax: start <drive>:<path><file> [/wait]
+taskkill    Stops a process. /pid for process ID, /im for process name                              Syntax: taskkill /pid|/im <ID>|<Name>
+taskpause   Pauses a process. /pid for process ID, /im for process name                             Syntax: taskpause /pid|/im <ID>|<Name>
+taskresume  Resumes a process. /pid for process ID, /im for process name                            Syntax: taskresume /pid|/im <ID>|<Name>
+tasklist    Displays all running and paused processes                                               Syntax: tasklist [<status>]
+time        Displays time in 24-hour format                                                         Syntax: time
+title       Creates title for Shell window                                                          Syntax: title [<text>]
+type        Displays contents of a text file                                                        Syntax: type <drive>:<path><file>
